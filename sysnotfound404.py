@@ -88,4 +88,4 @@ class Useragent:
         input_text = self.generate_useragent()
         output_text = self.replace_instagram_with_barcelona(input_text)
         crot = random.choice([new, output_text])
-        return output_text(Useragent().useragent_threads())       
+        return output_text      
